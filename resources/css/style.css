@@ -47,6 +47,11 @@ h2::after{
     border: 2px solid #e67e22;
 
 }
+
+section {
+    padding: 50px 0px;
+}
+
 /*---------------------------------------------*/
 /*---- MAIN NAVIGATION ----*/
 /*---------------------------------------------*/
@@ -54,6 +59,7 @@ header nav {
     display: block;
 }
  nav img {
+     color: #ffffff;
     width: auto;
     height: 150px;
     margin-left: 25px;
@@ -157,10 +163,6 @@ header .header-bttns .regular:active {
 /*---- FEATURES SECTION ----*/
 /*---------------------------------------------*/
 
-#features-section {
-    padding: 80px;
-}
-
 
 /*---- first block ----*/
 
@@ -243,9 +245,9 @@ header .header-bttns .regular:active {
 }
 
 .app-screen img {
+    display: block;
     width: 45%;
-    margin:0px auto;
-    float: left;
+    margin: 0px auto;
 }
 
 #steps-section .steps {
@@ -321,7 +323,6 @@ ion-icon {
     background-size: cover;
     color: #ffffff;
     background-attachment: fixed;
-    height: 75vh;
 
 }
 
@@ -330,14 +331,13 @@ ion-icon {
     line-height: 145%;
     margin: 5%;
     position: relative;
+    display: block;
 
 }
 .customer-testimonial cite{
     font-size: 90%;
     display: block ;
-    position: absolute; 
     margin-top: 20px;
-
 }
 .customer-testimonial cite img {
     height: 45px;
@@ -450,10 +450,6 @@ input[type=submit]
 /*---------------------------------------------*/
 /*---- FORM SECTION ----*/
 /*---------------------------------------------*/
-
-section {
-    padding: 50px 0px;
-}
 
 .contact-form {
     width: 60%;

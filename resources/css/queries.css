@@ -1,0 +1,52 @@
+img, embed, 
+object, video {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width:980px){
+     section { padding: 25px 0px;  }
+
+     html {font-size: 18px;  }
+
+     .welcome p { margin: 0% 5%;   }
+
+     .steps { margin-top: 30px; }
+
+     .sign-up h3 { font-size: 110%; }
+
+     .plan-price {font-size: 200%;}
+
+     .plan-box{
+         width: 95%;
+         margin: 0% 2%;
+     }
+     .advants {font-size: 85%;}
+     nav ul li a {font-size: 100%; }
+     .contact-form {width: 85%;}
+}
+
+
+@media screen and (max-width:790px){
+    body {font-size: 16px;}
+    section{ padding: 15px;}
+    .row {padding: 0% 3%;}
+    .col {width:100%; margin: 0 0 4% 0;}
+    .span-1-of-4 {margin: 0%;}
+    nav ul {display: none;}
+    .welcome p {
+        width: 98%;
+        margin-bottom: 7px;
+            }
+    .features h3 {padding: 7px 0px;}
+    .down-icons {margin-top: 20px;}
+    .step {margin-bottom: 30px;}
+    #cities-section .image img {margin-bottom: 0px;}
+    .customer-testimonial blockquote {margin:10px;}
+    .customer-testimonial .wrap {
+        width: 100%;
+       white-space: normal;
+    }
+    
+
+}
