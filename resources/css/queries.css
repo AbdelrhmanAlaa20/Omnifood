@@ -47,6 +47,6 @@ object, video {
         width: 100%;
        white-space: normal;
     }
-    
+    .app-screen img {width: 40%;}
 
 }

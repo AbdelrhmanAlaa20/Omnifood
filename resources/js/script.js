@@ -28,34 +28,31 @@ $(document).ready(function() {
      $('.js--cities').click(function () {
         $('html, body').animate({scrollTop: $('#cities-section').offset().top}, 1000); 
      });
-
-    
     
     /* Animations on scroll */
-    $('.js--wp-1').waypoint(function(direction) {
-        $('.js--wp-1').addClass('animated fadeIn');
+    $('.features').waypoint(function(direction) {
+        $('.features').addClass('animate__fadeInUp , animate__animated');
     }, {
         offset: '50%'
     });
-    
-    $('.js--wp-2').waypoint(function(direction) {
-        $('.js--wp-2').addClass('animated fadeInUp');
+    $('.app').waypoint(function(direction) {
+        $('.app').addClass('animate__fadeInUp , animate__animated');
     }, {
         offset: '50%'
     });
-    
-    $('.js--wp-3').waypoint(function(direction) {
-        $('.js--wp-3').addClass('animated fadeIn');
+
+    $('.cities').waypoint(function(direction) {
+        $('.cities').addClass('animate__fadeInUp , animate__animated');
     }, {
         offset: '50%'
     });
-    
-    $('.js--wp-4').waypoint(function(direction) {
-        $('.js--wp-4').addClass('animated pulse');
+
+    $('.pulse').waypoint(function(direction) {
+        $('.pulse').addClass('animate__pulse , animate__animated');
     }, {
         offset: '50%'
     });
-    
+
     
     /* Mobile navigation */
     $('.js--nav-icon').click(function() {

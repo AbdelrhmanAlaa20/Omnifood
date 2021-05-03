@@ -105,9 +105,9 @@ nav ul li a:active {
 .sticky .black-logo{
     display: inline-block;
     width: auto;
-    height: 75px;
+    height: 55px;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
 
 }
@@ -131,13 +131,13 @@ nav ul li a:active {
 .sticky ul li{
     display: inline-block;
     margin-left: 15px;
-    padding-top: 10px;
+    padding-top: 3px;
 }
 
 .sticky ul li a {
     padding-bottom: 15px;
     text-decoration: none;
-    font-size: 110%;
+    font-size: 100%;
     color: #555;
     border-bottom: 2px solid transparent;
     margin-right: none;
@@ -301,7 +301,7 @@ header .header-bttns .regular:active {
 
 .app-screen img {
     display: block;
-    width: 45%;
+    width: 35%;
     margin: 0px auto;
 }
 
@@ -562,3 +562,20 @@ footer p {
     text-align: center;
     font-size: 90%;
 }
+
+/*---------------------------------------------*/
+/*---- Animation ----*/
+/*---------------------------------------------*/
+
+.features,
+.app,
+.cities {
+    opacity: 0;
+}
+
+.features.animate__animated.animate__fadeInUp,
+.app.animate__animated.animate__fadeInUp,
+.cities.app.animate__animated.animate__fadeInUp{
+    opacity: 1;
+}
+
