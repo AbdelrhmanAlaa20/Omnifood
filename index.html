@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- favi icons  -->
+    <!-- favi icons start -->
     <link rel="apple-touch-icon" sizes="57x57" href="resources/favicon/">
     <link rel="apple-touch-icon" sizes="60x60" href="resources/favicon//apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="resources/favicon//apple-icon-72x72.png">
@@ -21,7 +21,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="resources/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!-- fav icons -->
+    <!-- fav icons  end-->
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -33,30 +33,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"> 
     <title>OmniFood</title>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <header>
-        <div class="main-nav">
-           <nav >
+        <nav class="main-nav">
+            <div>
                 <img src="vendors/img/logo-white.png" alt="OmniFoodLogo" class="white-logo">
                 <img src="vendors/img/logo.png" alt="OmniFoodLogo" class="black-logo">
-                <ul>
-                    <li><a href="#features-section" class="js--scroll-to-start">Food delivery</a></li>
-                    <li><a href="#steps-section" class="js--steps">How it works</a></li>
-                    <li><a href="#cities-section" class="js--cities">Our cities</a></li>
-                    <li><a href="#plans" class="js--scroll-to-plans">Sign up</a></li>
-                </ul>
-            </nav>
-        </div>
-            <div class="header-bttns">
-                            <h1>
-                Goodbye junk food.  <br> Hello super healthy meals.
-                            </h1>
-                  <a href="#plans" class="bold js--scroll-to-plans">I’m hungry</a>
-                  <a href="#features-section" class="regular js--scroll-to-start">Show me more</a>
-
             </div>
+            <ul class="mob">
+        
+                <li><a href="#features-section" class="js--scroll-to-start">Food delivery</a></li>
+                <li><a href="#steps-section" class="js--steps">How it works</a></li>
+                <li><a href="#cities-section" class="js--cities">Our cities</a></li>
+                <li><a href="#plans" class="js--scroll-to-plans">Sign up</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="header-bttns">
+            <h1>
+                Goodbye junk food. <br> Hello super healthy meals.
+            </h1>
+            <a href="#plans" class="bold js--scroll-to-plans">I’m hungry</a>
+            <a href="#features-section" class="regular js--scroll-to-start">Show me more</a>
+    
+        </div>
     </header>
     <section id="features-section" class="js--section-features">
         <div class="row welcome">
@@ -501,10 +512,9 @@
             </p>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script src="vendors/js/jquery.waypoints.min.js" ></script>
     <script src="resources/js/script.js"></script>
+    <script src="resources/js/app.js"></script>
 </body>
 </html>
